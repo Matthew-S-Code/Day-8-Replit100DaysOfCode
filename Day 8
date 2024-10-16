@@ -1,0 +1,33 @@
+name = input("What's your name? ")
+if name == "Matt" or name =="matt":
+  print("Hello Matt")
+else:
+  print("Hello ")
+day = input("What day is it today? ")
+hobby = input("Do you have any hobbies? ")
+if hobby == "Yes" or hobby == "yes":
+  hobbies = input("What hobbies do you have? ")
+  if hobbies == "gym" or hobbies == "Gym":
+    print("Yessir, getting stronger with every session.")
+    doesBench = input("Do you train the bench press? ")
+    if doesBench == "Yes" or doesBench == "yes":
+      bench = input("How much can you bench? ")
+      print("WOW YOU CAN BENCH", bench, "THATS AMAZING!!")
+    else:
+      print("Maybe give bench a try?")
+  elif hobbies == "eating" or hobbies == "Eating":
+    print("Love me some good food")
+  else:
+    print("Wow sounds fun!")  
+else:
+  print("Maybe its worth trying some new things and finding a hobby?")
+today = input("Is today going good or bad? ")
+if today == "Good" or today == "good":
+  print("Im glad", day, "is going well")
+elif today == "bad" or today == "Bad":
+  print("Oh thats a shame, I hope your day gets better")
+else: 
+  print("I hope your day is going generally well")
+
+print()
+print("Hello", name, "today is", day, "and hopefully your day is going well, or goes well. Hopefully you can take part in one of your hobbies or other activities, have a nice day.")
